@@ -26,6 +26,6 @@ android {
 dependencies {
     def googlePlayServicesVersion = project.hasProperty('googlePlayServicesVersion') ? project.googlePlayServicesVersion : DEFAULT_GOOGLE_PLAY_SERVICES_VERSION
 
-    compile 'com.facebook.react:react-native:11.6.0'
-    compile "com.google.android.gms:play-services-gcm:$googlePlayServicesVersion"
+    compile 'com.facebook.react:react-native:+'
+    compile "com.google.android.gms:play-services-gcm:11.6.0"
 }
