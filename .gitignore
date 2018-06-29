@@ -46,3 +46,9 @@ DerivedData
 .idea/vcs.xml
 
 .idea/workspace.xml
+
+*~
+*.bak
+*.orig
+*.swp
+
